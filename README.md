@@ -201,3 +201,161 @@
 ---
 
 ---
+
+<h3 align="center">BRANCH 1</h3>
+
+<h4 align="center">VERSION 1.0</h4>
+
+-   Initialized Branch 1 (REF: 1 || FIRST)
+-   Completed 100 Days of Python => Day 11, Day 19, Day 20;
+-   Pushed FIRST to ORIGIN;
+
+---
+
+<h5 align="center"><strong><em><u> ADDED </u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>[1]</td>
+        <td>=[N/A]</td>
+        <td>- Branch: 1 || FIRST</td>
+    </tr>
+    <tr>
+        <td>11\</td>
+        <td>[N/A]</td>
+        <td>=[MAINDIR\W2\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>11_BlackJack.py</td>
+        <td>[1]</td>
+        <td>=[W2\11\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TextArt.py</td>
+        <td>[1]</td>
+        <td>=[W2\11\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>19\</td>
+        <td>[N/A]</td>
+        <td>=[MAINDIR\W2\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>19_TurtleRaces.py</td>
+        <td>[1]</td>
+        <td>=[W2\19\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>20\</td>
+        <td>[N/A]</td>
+        <td>=[MAINDIR\W2]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>20_SnakeGame.py</td>
+        <td>[1]</td>
+        <td>=[W2\20\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>snake.py</td>
+        <td>[1]</td>
+        <td>=[W2\20\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>W3\&+</td>
+        <td>[N/A]</td>
+        <td>=[MAINDIR\]</td>
+        <td>- &+[21\]<br>- &+[29\]<br>- &+[30\]</td>
+    </tr>
+    <tr>
+        <td>W4\&+</td>
+        <td>[N/A]</td>
+        <td>=[MAINDIR\]</td>
+        <td>- &+[31\]<br>- &+[39]<br>- &+[40\]</td>
+    </tr>
+    <tr>
+        <td>mask.py</td>
+        <td>[1]</td>
+        <td>=[MAINDIR\]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
+<h5 align="center"><strong><em><u> UPDATED </u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>11_BlackJack.py</td>
+        <td>[1]=>[1.0]</td>
+        <td>=[W2\11\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TextArt.py</td>
+        <td>[1]=>[1.0]</td>
+        <td>=[W2\11\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>19_TurtleRaces.py</td>
+        <td>[1]=>[1.0]</td>
+        <td>=[W2\19\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>20_SnakeGame.py</td>
+        <td>[1]=>[1.0]</td>
+        <td>=[W2\20\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>snake.py</td>
+        <td>[1]=>[1.0]</td>
+        <td>=[W2\20\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>mask.py</td>
+        <td>[1]=>[1.0]</td>
+        <td>=[MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>[1]=>[1.0]</td>
+        <td>=[N/A]</td>
+        <td>- Branch: 1 || FIRST</td>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>[0.1]=>[1.0]</td>
+        <td>=[MAINDIR\]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
+---
