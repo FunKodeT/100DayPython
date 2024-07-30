@@ -217,16 +217,48 @@
         <th>COMMENT</th>
     </tr>
     <tr>
+        <td>README.md</td>
+        <td>[1.0]=>[0.2]</td>
+        <td>=[MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
         <td>0</td>
         <td>[0.1]=>[0.2]</td>
         <td>=[N/A]</td>
         <td>- Branch: 0 || OPERATIONS</td>
     </tr>
+</table>
+
+---
+
+<h4 align="center">VERSION 0.3</h4>
+
+-   Merged SECOND into OPERATIONS;
+-   Pushed LOCAL to ORIGIN;
+
+---
+
+<h5 align="center"><strong><em><u> UPDATED </u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
     <tr>
         <td>README.md</td>
-        <td>[1.0]=>[0.2]</td>
+        <td>[2.0]=>[0.3]</td>
         <td>=[MAINDIR\]</td>
         <td></td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>[0.2]=>[0.3]</td>
+        <td>=[N/A]</td>
+        <td>- Branch: 0 || OPERATIONS</td>
     </tr>
 </table>
 
@@ -375,16 +407,16 @@
         <td></td>
     </tr>
     <tr>
-        <td>1</td>
-        <td>[1]=>[1.0]</td>
-        <td>=[N/A]</td>
-        <td>- Branch: 1 || FIRST</td>
-    </tr>
-    <tr>
         <td>README.md</td>
         <td>[0.1]=>[1.0]</td>
         <td>=[MAINDIR\]</td>
         <td></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>[1]=>[1.0]</td>
+        <td>=[N/A]</td>
+        <td>- Branch: 1 || FIRST</td>
     </tr>
 </table>
 
@@ -410,6 +442,12 @@
         <th>VERSION</th>
         <th>DIR_LOC</th>
         <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>[2]</td>
+        <td>=[N/A]</td>
+        <td>Branch: 2 || SECOND</td>
     </tr>
     <tr>
         <td>5\&+</td>
@@ -531,6 +569,12 @@
         <td>[0.2]=>[2.0]</td>
         <td>=[MAINDIR\]</td>
         <td></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>[2]=>[2.0]</td>
+        <td>=[N/A]</td>
+        <td>- Branch: 2 || SECOND</td>
     </tr>
 </table>
 
