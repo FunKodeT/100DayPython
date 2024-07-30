@@ -3,13 +3,13 @@
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # FINAL PROGRAM
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#================================================================
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##---------------------------------------------------------------
 ## IMPORTS
 ##---------------------------------------------------------------
-from turtle import Screen, Turtle
+from turtle import Screen
 from snake import Snake
+from food import Food
+from scoreboard import Scoreboard
 import time
 ##---------------------------------------------------------------
 ## SCREEN SETTINGS
@@ -20,9 +20,11 @@ screen.bgcolor('black')
 screen.title('Snake Game')
 screen.tracer(0)
 ##---------------------------------------------------------------
-## CREATE SNAKE
+## CREATE ENTITY
 ##---------------------------------------------------------------
 snake = Snake()
+food = Food()
+scoreboard = Scoreboard()
 ##---------------------------------------------------------------
 ## CONTROL SNAKE
 ##---------------------------------------------------------------
@@ -39,6 +41,18 @@ while game_is_running:
     screen.update()
     time.sleep(0.1)
     snake.move()
+    if snake.head.distance(food) < 15:
+        food.refresh()
+        snake.extend()
+        scoreboard.increase_score()
+    if snake.head.xcor() > 280 or snake.head.xcor() < -280 or snake.head.ycor() > 280 or snake.head.ycor() < -280:
+        game_is_running = False
+        scoreboard.game_over()
+    for i in snake.segments[1:]:
+        if snake.head.distance(i) < 10:
+            game_is_running = False
+            scoreboard.game_over()
+
 ##---------------------------------------------------------------
 ## CODE END
 ##---------------------------------------------------------------
@@ -49,7 +63,342 @@ screen.exitonclick()
 #################################################################
 #================================================================
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-PROGRAM0_V0 = {
+PROGRAM0_V7 = {
+# #================================================================
+# ##---------------------------------------------------------------
+# ## IMPORTS
+# ##---------------------------------------------------------------
+# from turtle import Screen
+# from snake import Snake
+# from food import Food
+# from scoreboard import Scoreboard
+# import time
+# ##---------------------------------------------------------------
+# ## SCREEN SETTINGS
+# ##---------------------------------------------------------------
+# screen = Screen()
+# screen.setup(width=600, height=600)
+# screen.bgcolor('black')
+# screen.title('Snake Game')
+# screen.tracer(0)
+# ##---------------------------------------------------------------
+# ## CREATE ENTITY
+# ##---------------------------------------------------------------
+# snake = Snake()
+# food = Food()
+# scoreboard = Scoreboard()
+# ##---------------------------------------------------------------
+# ## CONTROL SNAKE
+# ##---------------------------------------------------------------
+# screen.listen()
+# screen.onkey(snake.up, 'Up')
+# screen.onkey(snake.down, 'Down')
+# screen.onkey(snake.left, 'Left')
+# screen.onkey(snake.right, 'Right')
+# ##---------------------------------------------------------------
+# ## GAME SETTINGS
+# ##---------------------------------------------------------------
+# game_is_running = True
+# while game_is_running:
+#     screen.update()
+#     time.sleep(0.1)
+#     snake.move()
+#     # DETECT COLLISION W/FOOD
+#     if snake.head.distance(food) < 15:
+#         food.refresh()
+#         snake.extend()
+#         scoreboard.increase_score()
+#     # DETECT COLLISION W/WALL
+#     if snake.head.xcor() > 280 or snake.head.xcor() < -280 or snake.head.ycor() > 280 or snake.head.ycor() < -280:
+#         game_is_running = False
+#         scoreboard.game_over()
+#     # DETECT COLLISION W/TAIL
+#     for i in snake.segments[1:]:
+#         if snake.head.distance(i) < 10:
+#             game_is_running = False
+#             scoreboard.game_over()
+
+# ##---------------------------------------------------------------
+# ## CODE END
+# ##---------------------------------------------------------------
+# screen.exitonclick()
+# ##---------------------------------------------------------------
+# #================================================================
+}
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PROGRAM0_V6 = {
+# #================================================================
+# ##---------------------------------------------------------------
+# ## IMPORTS
+# ##---------------------------------------------------------------
+# from turtle import Screen
+# from snake import Snake
+# from food import Food
+# from scoreboard import Scoreboard
+# import time
+# ##---------------------------------------------------------------
+# ## SCREEN SETTINGS
+# ##---------------------------------------------------------------
+# screen = Screen()
+# screen.setup(width=600, height=600)
+# screen.bgcolor('black')
+# screen.title('Snake Game')
+# screen.tracer(0)
+# ##---------------------------------------------------------------
+# ## CREATE ENTITY
+# ##---------------------------------------------------------------
+# snake = Snake()
+# food = Food()
+# scoreboard = Scoreboard()
+# ##---------------------------------------------------------------
+# ## CONTROL SNAKE
+# ##---------------------------------------------------------------
+# screen.listen()
+# screen.onkey(snake.up, 'Up')
+# screen.onkey(snake.down, 'Down')
+# screen.onkey(snake.left, 'Left')
+# screen.onkey(snake.right, 'Right')
+# ##---------------------------------------------------------------
+# ## GAME SETTINGS
+# ##---------------------------------------------------------------
+# game_is_running = True
+# while game_is_running:
+#     screen.update()
+#     time.sleep(0.1)
+#     snake.move()
+#     # DETECT COLLISION W/FOOD
+#     if snake.head.distance(food) < 15:
+#         food.refresh()
+#         snake.extend()
+#         scoreboard.increase_score()
+#     # DETECT COLLISION W/WALL
+#     if snake.head.xcor() > 280 or snake.head.xcor() < -280 or snake.head.ycor() > 280 or snake.head.ycor() < -280:
+#         game_is_running = False
+#         scoreboard.game_over()
+#     # DETECT COLLISION W/TAIL
+#     for i in snake.segments:
+#         if i == snake.head:
+#             pass
+#         if snake.head.distance(i) < 10:
+#             game_is_running = False
+#             scoreboard.game_over()
+#     # IF HEAD COLLIDES WITH ANY SEGMENT IN THE TAIL, TRIGGER GAME_OVER
+
+# ##---------------------------------------------------------------
+# ## CODE END
+# ##---------------------------------------------------------------
+# screen.exitonclick()
+# ##---------------------------------------------------------------
+# #================================================================
+}
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PROGRAM0_V5 = {
+# #================================================================
+# ##---------------------------------------------------------------
+# ## IMPORTS
+# ##---------------------------------------------------------------
+# from turtle import Screen
+# from snake import Snake
+# from food import Food
+# from scoreboard import Scoreboard
+# import time
+# ##---------------------------------------------------------------
+# ## SCREEN SETTINGS
+# ##---------------------------------------------------------------
+# screen = Screen()
+# screen.setup(width=600, height=600)
+# screen.bgcolor('black')
+# screen.title('Snake Game')
+# screen.tracer(0)
+# ##---------------------------------------------------------------
+# ## CREATE ENTITY
+# ##---------------------------------------------------------------
+# snake = Snake()
+# food = Food()
+# scoreboard = Scoreboard()
+# ##---------------------------------------------------------------
+# ## CONTROL SNAKE
+# ##---------------------------------------------------------------
+# screen.listen()
+# screen.onkey(snake.up, 'Up')
+# screen.onkey(snake.down, 'Down')
+# screen.onkey(snake.left, 'Left')
+# screen.onkey(snake.right, 'Right')
+# ##---------------------------------------------------------------
+# ## GAME SETTINGS
+# ##---------------------------------------------------------------
+# game_is_running = True
+# while game_is_running:
+#     screen.update()
+#     time.sleep(0.1)
+#     snake.move()
+#     # DETECT COLLISION W/FOOD
+#     if snake.head.distance(food) < 15:
+#         food.refresh()
+#         scoreboard.increase_score()
+#     # DETECT COLLISION W/WALL
+#     if snake.head.xcor() > 280 or snake.head.xcor() < -280 or snake.head.ycor() > 280 or snake.head.ycor() < -280:
+#         game_is_running = False
+#         scoreboard.game_over()
+# ##---------------------------------------------------------------
+# ## CODE END
+# ##---------------------------------------------------------------
+# screen.exitonclick()
+# ##---------------------------------------------------------------
+# #================================================================
+}
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PROGRAM0_V4 = {
+# #================================================================
+# ##---------------------------------------------------------------
+# ## IMPORTS
+# ##---------------------------------------------------------------
+# from turtle import Screen
+# from snake import Snake
+# from food import Food
+# from scoreboard import Scoreboard
+# import time
+# ##---------------------------------------------------------------
+# ## SCREEN SETTINGS
+# ##---------------------------------------------------------------
+# screen = Screen()
+# screen.setup(width=600, height=600)
+# screen.bgcolor('black')
+# screen.title('Snake Game')
+# screen.tracer(0)
+# ##---------------------------------------------------------------
+# ## CREATE ENTITY
+# ##---------------------------------------------------------------
+# snake = Snake()
+# food = Food()
+# scoreboard = Scoreboard()
+# ##---------------------------------------------------------------
+# ## CONTROL SNAKE
+# ##---------------------------------------------------------------
+# screen.listen()
+# screen.onkey(snake.up, 'Up')
+# screen.onkey(snake.down, 'Down')
+# screen.onkey(snake.left, 'Left')
+# screen.onkey(snake.right, 'Right')
+# ##---------------------------------------------------------------
+# ## GAME SETTINGS
+# ##---------------------------------------------------------------
+# game_is_running = True
+# while game_is_running:
+#     screen.update()
+#     time.sleep(0.1)
+#     snake.move()
+#     # DETECT COLLISION W/FOOD
+#     if snake.head.distance(food) < 15:
+#         food.refresh()
+#         scoreboard.increase_score()
+# ##---------------------------------------------------------------
+# ## CODE END
+# ##---------------------------------------------------------------
+# screen.exitonclick()
+# ##---------------------------------------------------------------
+# #================================================================
+}
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PROGRAM0_V3 = {
+# #================================================================
+# ##---------------------------------------------------------------
+# ## IMPORTS
+# ##---------------------------------------------------------------
+# from turtle import Screen
+# from snake import Snake
+# from food import Food
+# import time
+# ##---------------------------------------------------------------
+# ## SCREEN SETTINGS
+# ##---------------------------------------------------------------
+# screen = Screen()
+# screen.setup(width=600, height=600)
+# screen.bgcolor('black')
+# screen.title('Snake Game')
+# screen.tracer(0)
+# ##---------------------------------------------------------------
+# ## CREATE ENTITY
+# ##---------------------------------------------------------------
+# snake = Snake()
+# food = Food()
+# ##---------------------------------------------------------------
+# ## CONTROL SNAKE
+# ##---------------------------------------------------------------
+# screen.listen()
+# screen.onkey(snake.up, 'Up')
+# screen.onkey(snake.down, 'Down')
+# screen.onkey(snake.left, 'Left')
+# screen.onkey(snake.right, 'Right')
+# ##---------------------------------------------------------------
+# ## GAME SETTINGS
+# ##---------------------------------------------------------------
+# game_is_running = True
+# while game_is_running:
+#     screen.update()
+#     time.sleep(0.1)
+#     snake.move()
+#     # DETECT COLLISION W/FOOD
+#     if snake.head.distance(food) < 15:
+#         food.refresh()
+# ##---------------------------------------------------------------
+# ## CODE END
+# ##---------------------------------------------------------------
+# screen.exitonclick()
+# ##---------------------------------------------------------------
+# #================================================================
+}
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PROGRAM0_V2 = {
+# #================================================================
+# ##---------------------------------------------------------------
+# ## IMPORTS
+# ##---------------------------------------------------------------
+# from turtle import Screen
+# from snake import Snake
+# from food import Food
+# import time
+# ##---------------------------------------------------------------
+# ## SCREEN SETTINGS
+# ##---------------------------------------------------------------
+# screen = Screen()
+# screen.setup(width=600, height=600)
+# screen.bgcolor('black')
+# screen.title('Snake Game')
+# screen.tracer(0)
+# ##---------------------------------------------------------------
+# ## CREATE ENTITY
+# ##---------------------------------------------------------------
+# snake = Snake()
+# food = Food()
+# ##---------------------------------------------------------------
+# ## CONTROL SNAKE
+# ##---------------------------------------------------------------
+# screen.listen()
+# screen.onkey(snake.up, 'Up')
+# screen.onkey(snake.down, 'Down')
+# screen.onkey(snake.left, 'Left')
+# screen.onkey(snake.right, 'Right')
+# ##---------------------------------------------------------------
+# ## GAME SETTINGS
+# ##---------------------------------------------------------------
+# game_is_running = True
+# while game_is_running:
+#     screen.update()
+#     time.sleep(0.1)
+#     snake.move()
+#     # DETECT COLLISION W/FOOD
+#     if snake.head.distance(food) < 15:
+#         print('nom nom nom')
+# ##---------------------------------------------------------------
+# ## CODE END
+# ##---------------------------------------------------------------
+# screen.exitonclick()
+# ##---------------------------------------------------------------
+# #================================================================
+}
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PROGRAM0_V1 = {
 # #================================================================
 # ##---------------------------------------------------------------
 # ## IMPORTS
@@ -91,313 +440,6 @@ PROGRAM0_V0 = {
 # screen.exitonclick()
 # ##---------------------------------------------------------------
 # #================================================================
-}
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-PROGRAM0_V0 = {
-# #================================================================
-# ##---------------------------------------------------------------
-# ## IMPORTS
-# ##---------------------------------------------------------------
-# from turtle import Screen, Turtle
-# import time
-# ##---------------------------------------------------------------
-# ## SCREEN SETTINGS
-# ##---------------------------------------------------------------
-# screen = Screen()
-# screen.setup(width=600, height=600)
-# screen.bgcolor('black')
-# screen.title('Snake Game')
-# screen.tracer(0)
-# ##---------------------------------------------------------------
-# ## TURTLE SETTINGS
-# ##---------------------------------------------------------------
-# starting_positions = [(0,0), (-20, 0), (-40, 0)]
-# segments = []
-
-# for position in starting_positions:
-#     new_segment = Turtle('square')
-#     new_segment.color('white')
-#     new_segment.penup()
-#     new_segment.goto(position)
-#     segments.append(new_segment)
-# ##---------------------------------------------------------------
-# ## GAME SETTINGS
-# ##---------------------------------------------------------------
-# game_is_running = True
-# while game_is_running:
-#     screen.update()
-#     time.sleep(0.1)
-#     for i in range(len(segments) -1, 0, -1):
-#         new_x = segments[i - 1].xcor()
-#         new_y = segments[i - 1].ycor()
-#         segments[i].goto(new_x, new_y)
-#     segments[0].forward(20)
-# ##---------------------------------------------------------------
-# ## CODE END
-# ##---------------------------------------------------------------
-# screen.exitonclick()
-# ##---------------------------------------------------------------
-# #================================================================
-}
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-PROGRAM0_V0 = {
-# #================================================================
-# ##---------------------------------------------------------------
-# ## IMPORTS
-# ##---------------------------------------------------------------
-# from turtle import Screen, Turtle
-# import time
-# ##---------------------------------------------------------------
-# ## SCREEN SETTINGS
-# ##---------------------------------------------------------------
-# screen = Screen()
-# screen.setup(width=600, height=600)
-# screen.bgcolor('black')
-# screen.title('Snake Game')
-# screen.tracer(0)
-# ##---------------------------------------------------------------
-# ## TURTLE SETTINGS
-# ##---------------------------------------------------------------
-# starting_positions = [(0,0), (-20, 0), (-40, 0)]
-# segments = []
-
-# for position in starting_positions:
-#     new_segment = Turtle('square')
-#     new_segment.color('white')
-#     new_segment.penup()
-#     new_segment.goto(position)
-#     segments.append(new_segment)
-# ##---------------------------------------------------------------
-# ## GAME SETTINGS
-# ##---------------------------------------------------------------
-# game_is_running = True
-# while game_is_running:
-#     screen.update()
-#     time.sleep(0.1)
-#     for i in range(start=2, stop=0, step=-1):
-#         new_x = segments[i - 1].xcor()
-#         new_y = segments[i - 1].ycor()
-#         segments[i].goto(new_x, new_y)
-# ##---------------------------------------------------------------
-# ## CODE END
-# ##---------------------------------------------------------------
-# screen.exitonclick()
-# ##---------------------------------------------------------------
-# ## CODE RESULT
-# ##---------------------------------------------------------------
-# # ERROR
-# ##---------------------------------------------------------------
-# #================================================================
-}
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-PROGRAM0_V0 = {
-# #================================================================
-# ##---------------------------------------------------------------
-# ## IMPORTS
-# ##---------------------------------------------------------------
-# from turtle import Screen, Turtle
-# import time
-# ##---------------------------------------------------------------
-# ## SCREEN SETTINGS
-# ##---------------------------------------------------------------
-# screen = Screen()
-# screen.setup(width=600, height=600)
-# screen.bgcolor('black')
-# screen.title('Snake Game')
-# screen.tracer(0)
-# ##---------------------------------------------------------------
-# ## TURTLE SETTINGS
-# ##---------------------------------------------------------------
-# starting_positions = [(0,0), (-20, 0), (-40, 0)]
-# segments = []
-
-# for position in starting_positions:
-#     new_segment = Turtle('square')
-#     new_segment.color('white')
-#     new_segment.penup()
-#     new_segment.goto(position)
-#     segments.append(new_segment)
-# ##---------------------------------------------------------------
-# ## GAME SETTINGS
-# ##---------------------------------------------------------------
-# game_is_running = True
-# while game_is_running:
-#     screen.update()
-#     time.sleep(0.1)
-#     for i in segments:
-#         i.forward(20)
-#     segments[0].left(90)
-# ##---------------------------------------------------------------
-# ## CODE END
-# ##---------------------------------------------------------------
-# screen.exitonclick()
-# ##---------------------------------------------------------------
-# #================================================================
-}
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-PROGRAM0_V0 = {
-# #================================================================
-# ##---------------------------------------------------------------
-# ## IMPORTS
-# ##---------------------------------------------------------------
-# from turtle import Screen, Turtle
-# import time
-# ##---------------------------------------------------------------
-# ## SCREEN SETTINGS
-# ##---------------------------------------------------------------
-# screen = Screen()
-# screen.setup(width=600, height=600)
-# screen.bgcolor('black')
-# screen.title('Snake Game')
-# screen.tracer(0)
-# ##---------------------------------------------------------------
-# ## TURTLE SETTINGS
-# ##---------------------------------------------------------------
-# starting_positions = [(0,0), (-20, 0), (-40, 0)]
-# segments = []
-
-# for position in starting_positions:
-#     new_segment = Turtle('square')
-#     new_segment.color('white')
-#     new_segment.penup()
-#     new_segment.goto(position)
-#     segments.append(new_segment)
-# ##---------------------------------------------------------------
-# ## GAME SETTINGS
-# ##---------------------------------------------------------------
-# game_is_running = True
-# while game_is_running:
-#     screen.update()
-#     for i in segments:
-#         i.forward(20)
-#         time.sleep(1)
-# ##---------------------------------------------------------------
-# ## CODE END
-# ##---------------------------------------------------------------
-# screen.exitonclick()
-# ##---------------------------------------------------------------
-# #================================================================
-}
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-PROGRAM0_V0 = {
-#================================================================
-# ##---------------------------------------------------------------
-# ## IMPORTS
-# ##---------------------------------------------------------------
-# from turtle import Screen, Turtle
-# import time
-# ##---------------------------------------------------------------
-# ## SCREEN SETTINGS
-# ##---------------------------------------------------------------
-# screen = Screen()
-# screen.setup(width=600, height=600)
-# screen.bgcolor('black')
-# screen.title('Snake Game')
-# screen.tracer(0)
-# ##---------------------------------------------------------------
-# ## TURTLE SETTINGS
-# ##---------------------------------------------------------------
-# starting_positions = [(0,0), (-20, 0), (-40, 0)]
-# segments = []
-
-# for position in starting_positions:
-#     new_segment = Turtle('square')
-#     new_segment.color('white')
-#     new_segment.penup()
-#     new_segment.goto(position)
-#     segments.append(new_segment)
-# ##---------------------------------------------------------------
-# ## GAME SETTINGS
-# ##---------------------------------------------------------------
-# game_is_running = True
-# while game_is_running:
-#     for i in segments:
-#         i.forward(20)
-#         screen.update()
-#         time.sleep(1)
-# ##---------------------------------------------------------------
-# ## CODE END
-# ##---------------------------------------------------------------
-# screen.exitonclick()
-# ##---------------------------------------------------------------
-# #================================================================
-}
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-PROGRAM0_V0 = {
-#================================================================
-# ##---------------------------------------------------------------
-# ## IMPORTS
-# ##---------------------------------------------------------------
-# from turtle import Screen, Turtle
-# ##---------------------------------------------------------------
-# ## SCREEN SETTINGS
-# ##---------------------------------------------------------------
-# screen = Screen()
-# screen.setup(width=600, height=600)
-# screen.bgcolor('black')
-# screen.title('Snake Game')
-# screen.tracer(0)
-# ##---------------------------------------------------------------
-# ## TURTLE SETTINGS
-# ##---------------------------------------------------------------
-# starting_positions = [(0,0), (-20, 0), (-40, 0)]
-# segments = []
-
-# for position in starting_positions:
-#     new_segment = Turtle('square')
-#     new_segment.color('white')
-#     new_segment.penup()
-#     new_segment.goto(position)
-#     segments.append(new_segment)
-# ##---------------------------------------------------------------
-# ## GAME SETTINGS
-# ##---------------------------------------------------------------
-# screen.update()
-
-# game_is_running = True
-# while game_is_running:
-#     for i in segments:
-#         i.forward(20)
-# ##---------------------------------------------------------------
-# ## CODE END
-# ##---------------------------------------------------------------
-# screen.exitonclick()
-# ##---------------------------------------------------------------
-# #================================================================
-}
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-PROGRAM0_V0 = {
-#================================================================
-# ##---------------------------------------------------------------
-# ## IMPORTS
-# ##---------------------------------------------------------------
-# from turtle import Screen, Turtle
-# ##---------------------------------------------------------------
-# ## SCREEN SETTINGS
-# ##---------------------------------------------------------------
-# screen = Screen()
-# screen.setup(width=600, height=600)
-# screen.bgcolor('black')
-# screen.title('Snake Game')
-# ##---------------------------------------------------------------
-# ## TURTLE SETTINGS
-# ##---------------------------------------------------------------
-# segment_1 = Turtle('square')
-# segment_1.color('white')
-
-# segment_2 = Turtle('square')
-# segment_2.color('white')
-# segment_2.goto(x=-20, y=0)
-
-# segment_3 = Turtle('square')
-# segment_3.color('white')
-# segment_2.goto(x=-40, y=0)
-# ##---------------------------------------------------------------
-# ## CODE END
-# ##---------------------------------------------------------------
-# screen.exitonclick()
-#----------------------------------------------------------------
-#================================================================
 }
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #================================================================

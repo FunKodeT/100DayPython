@@ -391,3 +391,149 @@
 ---
 
 ---
+
+<h3 align="center">BRANCH 2</h3>
+
+<h4 align="center">VERSION 2.0</h4>
+
+-   Initialized Branch 2 (REF: 2 || SECOND)
+-   Completed 100 Days of Python => Day 21, Day 29, Day 30;
+-   Pushed SECOND to ORIGIN;
+
+---
+
+<h5 align="center"><strong><em><u> ADDED </u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>5\&+</td>
+        <td>[N/A]</td>
+        <td>=[W1\5\&+]</td>
+        <td>- &+[5_PassGen(Final-Copy).py[2]]</td>
+    </tr>
+    <tr>
+        <td>food.py</td>
+        <td>[2]</td>
+        <td>=[W3\21\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>scoreboard.py</td>
+        <td>[2]</td>
+        <td>=[W3\21\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>snake.py</td>
+        <td>[2]</td>
+        <td>=[W3\21\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Resources\&+</td>
+        <td>[N/A]</td>
+        <td>=[W3\29\]</td>
+        <td>- &+[main.py[2]]</td>
+    </tr>
+    <tr>
+        <td>logo.png</td>
+        <td>[N/A]</td>
+        <td>=[29\Resources]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>29_MyPass.py</td>
+        <td>[2]</td>
+        <td>=[W3\29]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Resources\&+</td>
+        <td>[N/A]</td>
+        <td>=[W3\30\]</td>
+        <td>- &+[logo.png[N/A]]<br>- &+[nato_phonetic_alphabet.csv[N/A]]</td>
+    </tr>
+    <tr>
+        <td>30_ErrorHandling.py</td>
+        <td>[2]</td>
+        <td>=[W3\30]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
+<h5 align="center"><strong><em><u> UPDATED </u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>20_SnakeGame.py</td>
+        <td>[1.0]=>[2.0]</td>
+        <td>=[W2\20\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>21_SnakeGame.py</td>
+        <td>[1.0]=>[2.0]</td>
+        <td>=[W3\21\]</td>
+        <td></td>
+    </tr>
+        <tr>
+        <td>food.py</td>
+        <td>[2]=>[2.0]</td>
+        <td>=[W3\21\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>scoreboard.py</td>
+        <td>[2]=>[2.0]</td>
+        <td>=[W3\21\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>snake.py</td>
+        <td>[2]=>[2.0]</td>
+        <td>=[W3\21\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>29_MyPass.py</td>
+        <td>[2]=>[2.0]</td>
+        <td>=[W3\29]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>30_ErrorHandling.py</td>
+        <td>[2]=>[2.0]</td>
+        <td>=[W3\30]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>mask.py</td>
+        <td>[1.0]=>[2.0]</td>
+        <td>=[MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>[0.2]=>[2.0]</td>
+        <td>=[MAINDIR\]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
+---
