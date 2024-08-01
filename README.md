@@ -29,18 +29,18 @@
         <td>0</td>
         <td>[0]</td>
         <td>=[N/A]</td>
-        <td>- Branch 0 [REF: 0 || OPERATIONS]</td>
+        <td>- Branch: 0 || OPERATIONS</td>
     </tr>
     <tr>
         <td>README.md</td>
         <td>[0]</td>
-        <td>=[MAINDIR\]</td>
+        <td>=[MAINDIR]</td>
         <td></td>
     </tr>
     <tr>
         <td>test.py</td>
         <td>[0]</td>
-        <td>=[MAINDIR\]</td>
+        <td>=[MAINDIR]</td>
         <td></td>
     </tr>
 </table>
@@ -60,18 +60,18 @@
         <td>0</td>
         <td>[0]=>[0.0]</td>
         <td>=[N/A]</td>
-        <td>- Branch 0 [REF: 0 || OPERATIONS]</td>
+        <td>- Branch: 0 || OPERATIONS</td>
     </tr>
     <tr>
         <td>README.md</td>
         <td>[0]=>[0.0]</td>
-        <td>=[MAINDIR\]</td>
+        <td>=[MAINDIR]</td>
         <td></td>
     </tr>
     <tr>
         <td>test.py</td>
         <td>[0]=>[0.0]</td>
-        <td>=[MAINDIR\]</td>
+        <td>=[MAINDIR]</td>
         <td></td>
     </tr>
 </table>
@@ -90,7 +90,7 @@
     <tr>
         <td>test.py</td>
         <td>[0.0]</td>
-        <td>=[MAINDIR\]</td>
+        <td>=[MAINDIR]</td>
         <td></td>
     </tr>
 </table>
@@ -116,7 +116,7 @@
     <tr>
         <td>W1\</td>
         <td>[N/A]</td>
-        <td>=[MAINDIR\W1]</td>
+        <td>=[MAINDIR\]</td>
         <td></td>
     </tr>
     <tr>
@@ -128,25 +128,25 @@
     <tr>
         <td>10_TextArt.py</td>
         <td>[0]</td>
-        <td>=[W1\10\]</td>
+        <td>=[W1\10]</td>
         <td></td>
     </tr>
     <tr>
         <td>1_BandNameGen.py</td>
         <td>[0]</td>
-        <td>=[MAINDIR\W1\]</td>
+        <td>=[MAINDIR\W1]</td>
         <td></td>
     </tr>
     <tr>
         <td>9_temp.py</td>
         <td>[0]</td>
-        <td>=[MAINDIR\W1\]</td>
+        <td>=[MAINDIR\W1]</td>
         <td></td>
     </tr>
     <tr>
         <td>10_temp.py</td>
         <td>[0]</td>
-        <td>=[MAINDIR\W1\]</td>
+        <td>=[MAINDIR\W1]</td>
         <td></td>
     </tr>
 </table>
@@ -175,7 +175,7 @@
     <tr>
         <td>1_BandNameGen.py</td>
         <td>[0]=>[0.1]</td>
-        <td>=[MAINDIR\W1\]</td>
+        <td>=[MAINDIR\W1]</td>
         <td></td>
     </tr>
     <tr>
@@ -187,14 +187,14 @@
     <tr>
         <td>README.md</td>
         <td>[0.0]=>[0.1]</td>
-        <td>=[MAINDIR\]</td>
+        <td>=[MAINDIR]</td>
         <td></td>
     </tr>
     <tr>
         <td>0</td>
         <td>[0.0]=>[0.1]</td>
         <td>=[N/A]</td>
-        <td>- Branch 0 [REF: 0 || OPERATIONS]</td>
+        <td>- Branch: 0 || OPERATIONS</td>
     </tr>
 </table>
 
@@ -219,7 +219,7 @@
     <tr>
         <td>README.md</td>
         <td>[1.0]=>[0.2]</td>
-        <td>=[MAINDIR\]</td>
+        <td>=[MAINDIR]</td>
         <td></td>
     </tr>
     <tr>
@@ -251,7 +251,7 @@
     <tr>
         <td>README.md</td>
         <td>[2.0]=>[0.3]</td>
-        <td>=[MAINDIR\]</td>
+        <td>=[MAINDIR]</td>
         <td></td>
     </tr>
     <tr>
@@ -300,13 +300,13 @@
     <tr>
         <td>11_BlackJack.py</td>
         <td>[1]</td>
-        <td>=[W2\11\]</td>
+        <td>=[W2\11]</td>
         <td></td>
     </tr>
     <tr>
         <td>TextArt.py</td>
         <td>[1]</td>
-        <td>=[W2\11\]</td>
+        <td>=[W2\11]</td>
         <td></td>
     </tr>
     <tr>
@@ -318,43 +318,43 @@
     <tr>
         <td>19_TurtleRaces.py</td>
         <td>[1]</td>
-        <td>=[W2\19\]</td>
+        <td>=[W2\19]</td>
         <td></td>
     </tr>
     <tr>
         <td>20\</td>
         <td>[N/A]</td>
-        <td>=[MAINDIR\W2]</td>
+        <td>=[MAINDIR\W2\]</td>
         <td></td>
     </tr>
     <tr>
         <td>20_SnakeGame.py</td>
         <td>[1]</td>
-        <td>=[W2\20\]</td>
+        <td>=[W2\20]</td>
         <td></td>
     </tr>
     <tr>
         <td>snake.py</td>
         <td>[1]</td>
-        <td>=[W2\20\]</td>
+        <td>=[W2\20]</td>
         <td></td>
     </tr>
     <tr>
         <td>W3\&+</td>
         <td>[N/A]</td>
-        <td>=[MAINDIR\]</td>
+        <td>=[MAINDIR\W3\&+]</td>
         <td>- &+[21\]<br>- &+[29\]<br>- &+[30\]</td>
     </tr>
     <tr>
         <td>W4\&+</td>
         <td>[N/A]</td>
-        <td>=[MAINDIR\]</td>
-        <td>- &+[31\]<br>- &+[39]<br>- &+[40\]</td>
+        <td>=[MAINDIR\W4\&+]</td>
+        <td>- &+[31\]<br>- &+[39\]<br>- &+[40\]</td>
     </tr>
     <tr>
         <td>mask.py</td>
         <td>[1]</td>
-        <td>=[MAINDIR\]</td>
+        <td>=[MAINDIR]</td>
         <td></td>
     </tr>
 </table>
@@ -373,43 +373,43 @@
     <tr>
         <td>11_BlackJack.py</td>
         <td>[1]=>[1.0]</td>
-        <td>=[W2\11\]</td>
+        <td>=[W2\11]</td>
         <td></td>
     </tr>
     <tr>
         <td>TextArt.py</td>
         <td>[1]=>[1.0]</td>
-        <td>=[W2\11\]</td>
+        <td>=[W2\11]</td>
         <td></td>
     </tr>
     <tr>
         <td>19_TurtleRaces.py</td>
         <td>[1]=>[1.0]</td>
-        <td>=[W2\19\]</td>
+        <td>=[W2\19]</td>
         <td></td>
     </tr>
     <tr>
         <td>20_SnakeGame.py</td>
         <td>[1]=>[1.0]</td>
-        <td>=[W2\20\]</td>
+        <td>=[W2\20]</td>
         <td></td>
     </tr>
     <tr>
         <td>snake.py</td>
         <td>[1]=>[1.0]</td>
-        <td>=[W2\20\]</td>
+        <td>=[W2\20]</td>
         <td></td>
     </tr>
     <tr>
         <td>mask.py</td>
         <td>[1]=>[1.0]</td>
-        <td>=[MAINDIR\]</td>
+        <td>=[MAINDIR]</td>
         <td></td>
     </tr>
     <tr>
         <td>README.md</td>
         <td>[0.1]=>[1.0]</td>
-        <td>=[MAINDIR\]</td>
+        <td>=[MAINDIR]</td>
         <td></td>
     </tr>
     <tr>
@@ -458,25 +458,25 @@
     <tr>
         <td>food.py</td>
         <td>[2]</td>
-        <td>=[W3\21\]</td>
+        <td>=[W3\21]</td>
         <td></td>
     </tr>
     <tr>
         <td>scoreboard.py</td>
         <td>[2]</td>
-        <td>=[W3\21\]</td>
+        <td>=[W3\21]</td>
         <td></td>
     </tr>
     <tr>
         <td>snake.py</td>
         <td>[2]</td>
-        <td>=[W3\21\]</td>
+        <td>=[W3\21]</td>
         <td></td>
     </tr>
     <tr>
         <td>Resources\&+</td>
         <td>[N/A]</td>
-        <td>=[W3\29\]</td>
+        <td>=[W3\29\&+]</td>
         <td>- &+[main.py[2]]</td>
     </tr>
     <tr>
@@ -494,7 +494,7 @@
     <tr>
         <td>Resources\&+</td>
         <td>[N/A]</td>
-        <td>=[W3\30\]</td>
+        <td>=[W3\30\&+]</td>
         <td>- &+[logo.png[N/A]]<br>- &+[nato_phonetic_alphabet.csv[N/A]]</td>
     </tr>
     <tr>
@@ -519,31 +519,31 @@
     <tr>
         <td>20_SnakeGame.py</td>
         <td>[1.0]=>[2.0]</td>
-        <td>=[W2\20\]</td>
+        <td>=[W2\20]</td>
         <td></td>
     </tr>
     <tr>
         <td>21_SnakeGame.py</td>
         <td>[1.0]=>[2.0]</td>
-        <td>=[W3\21\]</td>
+        <td>=[W3\21]</td>
         <td></td>
     </tr>
         <tr>
         <td>food.py</td>
         <td>[2]=>[2.0]</td>
-        <td>=[W3\21\]</td>
+        <td>=[W3\21]</td>
         <td></td>
     </tr>
     <tr>
         <td>scoreboard.py</td>
         <td>[2]=>[2.0]</td>
-        <td>=[W3\21\]</td>
+        <td>=[W3\21]</td>
         <td></td>
     </tr>
     <tr>
         <td>snake.py</td>
         <td>[2]=>[2.0]</td>
-        <td>=[W3\21\]</td>
+        <td>=[W3\21]</td>
         <td></td>
     </tr>
     <tr>
@@ -561,13 +561,13 @@
     <tr>
         <td>mask.py</td>
         <td>[1.0]=>[2.0]</td>
-        <td>=[MAINDIR\]</td>
+        <td>=[MAINDIR]</td>
         <td></td>
     </tr>
     <tr>
         <td>README.md</td>
         <td>[0.2]=>[2.0]</td>
-        <td>=[MAINDIR\]</td>
+        <td>=[MAINDIR]</td>
         <td></td>
     </tr>
     <tr>
@@ -575,6 +575,170 @@
         <td>[2]=>[2.0]</td>
         <td>=[N/A]</td>
         <td>- Branch: 2 || SECOND</td>
+    </tr>
+</table>
+
+---
+
+---
+
+<h3 align="center">BRANCH 3</h3>
+
+<h4 align="center">VERSION 3.0</h4>
+
+-   Initialized Branch: 3 || THIRD;
+-   Completed 100 Days of Python => Day 31, Day 37, Day 38;
+-   Pushed THIRD to ORIGIN;
+
+---
+
+<h5 align="center"><strong><em><u> ADDED </u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>Resources\</td>
+        <td>[N/A]</td>
+        <td>=[W4\31\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>data\&+</td>
+        <td>[N/A]</td>
+        <td>=[31\Resources\data\&+]</td>
+        <td>- &+[french_words.csv[3]]<br></td>
+    </tr>
+    <tr>
+        <td>images\&+</td>
+        <td>[N/A]</td>
+        <td>=[31\Resources\images\&+]</td>
+        <td>- &+[card_back.png[N/A]]<br>- &+[card_front.png[N/A]]<br>- &+[right.png[N/A]]<br>- &+[wrong.png[N/A]]<br></td>
+    </tr>
+    <tr>
+        <td>31_FlashCards.py</td>
+        <td>[3]</td>
+        <td>=[W4\31]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>37\</td>
+        <td>[N/A]</td>
+        <td>=[MAINDIR\W4\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>37_HabitTracker.py</td>
+        <td>[3]</td>
+        <td>=[W4\37]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>38\</td>
+        <td>[N/A]</td>
+        <td>=[MAINDIR\W4\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>.env</td>
+        <td>[3]</td>
+        <td>=[W4\38]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>.gitignore</td>
+        <td>[3]</td>
+        <td>=[W4\38]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>38_ExerciseTracker.py</td>
+        <td>[3]</td>
+        <td>=[W4\38]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Resources\&+</td>
+        <td>[N/A]</td>
+        <td>=[W4\39\&+]</td>
+        <td>- &+[data_manager.py[3]]<br>- &+[flight_data.py[3]]<br>- &+[flight_search.py[3]]<br>- &+[main.py[3]]<br>- &+[notification_manager.py[3]]<br></td>
+    </tr>
+    <tr>
+        <td>39_CheapFlightFinder.py</td>
+        <td>[3]</td>
+        <td>=[W4\39]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
+<h5 align="center"><strong><em><u> UPDATED </u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>31_FlashCards.py</td>
+        <td>[3]=>[3.0]</td>
+        <td>=[W4\31]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>37_HabitTracker.py</td>
+        <td>[3]=>[3.0]</td>
+        <td>=[W4\37]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>.env</td>
+        <td>[3]=>[3.0]</td>
+        <td>=[W4\38]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>.gitignore</td>
+        <td>[3]=>[3.0]</td>
+        <td>=[W4\38]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>38_ExerciseTracker.py</td>
+        <td>[3]=>[3.0]</td>
+        <td>=[W4\38]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>39_CheapFlightFinder.py</td>
+        <td>[3]=>[3.0]</td>
+        <td>=[W4\39]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>mask.py</td>
+        <td>[2.0]=>[3.0]</td>
+        <td>=[MAINDIR]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>[0.3]=>[3.0]</td>
+        <td>=[MAINDIR]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>[3]=>[3.0]</td>
+        <td>=[N/A]</td>
+        <td>Branch: 3 || THIRD</td>
     </tr>
 </table>
 
