@@ -264,6 +264,38 @@
 
 ---
 
+<h4 align="center">VERSION 0.4</h4>
+
+-   Merged THIRD into OPERATIONS;
+-   Pushed LOCAL to ORIGIN;
+
+---
+
+<h5 align="center"><strong><em><u> UPDATED </u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>[3.0]=>[0.4]</td>
+        <td>=[MAINDIR]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>[0.3]=>[0.4]</td>
+        <td>=[N/A]</td>
+        <td>- Branch: 0 || OPERATIONS</td>
+    </tr>
+</table>
+
+---
+
 ---
 
 <h3 align="center">BRANCH 1</h3>
