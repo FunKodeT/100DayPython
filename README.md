@@ -777,3 +777,263 @@
 ---
 
 ---
+
+<h3 align="center">BRANCH 4</h3>
+
+<h4 align="center">VERSION 4.0</h4>
+
+-   Initialized Branch: 4 || FOURTH;
+-   Completed 100 Days of Python => Day 41, Day 47, Day 48;
+-   Pushed FOURTH to ORIGIN;
+
+---
+
+<h5 align="center"><strong><em><u> ADDED </u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>[4]</td>
+        <td>=[N/A]</td>
+        <td>Branch: 4 || FOURTH</td>
+    </tr>
+    <tr>
+        <td>W5\</td>
+        <td>[N/A]</td>
+        <td>=[MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>41\</td>
+        <td>[N/A]</td>
+        <td>=[MAINDIR\W5\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>E1\</td>
+        <td>[N/A]</td>
+        <td>=[W5\41\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>goal.png</td>
+        <td>[4]</td>
+        <td>=[41\E1]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>index.html</td>
+        <td>[4]</td>
+        <td>=[41\E1]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>solution.html</td>
+        <td>[4]</td>
+        <td>=[41\E1]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>E2\</td>
+        <td>[N/A]</td>
+        <td>=[W5\41\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>goal.png</td>
+        <td>[4]</td>
+        <td>=[41\E2]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>index.html</td>
+        <td>[4]</td>
+        <td>=[41\E2]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>solution.html</td>
+        <td>[4]</td>
+        <td>=[41\E2]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>E3\</td>
+        <td>[N/A]</td>
+        <td>=[W5\41\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>goal.png</td>
+        <td>[4]</td>
+        <td>=[41\E3]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>index.html</td>
+        <td>[4]</td>
+        <td>=[41\E3]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>solution.html</td>
+        <td>[4]</td>
+        <td>=[41\E3]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>goal.png</td>
+        <td>[4]</td>
+        <td>=[W5\41]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>index.html</td>
+        <td>[4]</td>
+        <td>=[W5\41]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>solution.html</td>
+        <td>[4]</td>
+        <td>=[W5\41\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>47\</td>
+        <td>[N/A]</td>
+        <td>=[MAINDIR\W5\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>.env</td>
+        <td>[4]</td>
+        <td>=[W5\47]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>47_Amazon_PriceChange_Notify.py</td>
+        <td>[4]</td>
+        <td>=[W5\47]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>48\</td>
+        <td>[N/A]</td>
+        <td>=[MAINDIR\W5\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>48_CookieClicker.py</td>
+        <td>[4]</td>
+        <td>=[W5\48]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>49\</td>
+        <td>[N/A]</td>
+        <td>=[MAINDIR\W5\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Resume.pdf</td>
+        <td>[4]</td>
+        <td>=[W5\49]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>50\</td>
+        <td>[N/A]</td>
+        <td>=[MAINDIR\W5\]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
+<h5 align="center"><strong><em><u> UPDATED </u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>index.html</td>
+        <td>[4]=>[4.0]</td>
+        <td>=[41\E1]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>index.html</td>
+        <td>[4]=>[4.0]</td>
+        <td>=[41\E2]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>index.html</td>
+        <td>[4]=>[4.0]</td>
+        <td>=[41\E3]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>index.html</td>
+        <td>[4]=>[4.0]</td>
+        <td>=[W5\41]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>.env</td>
+        <td>[4]=>[4.0]</td>
+        <td>=[W5\47]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>47_Amazon_PriceChange_Notify.py</td>
+        <td>[4]=>[4.0]</td>
+        <td>=[W5\47]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>48_CookieClicker.py</td>
+        <td>[4]=>[4.0]</td>
+        <td>=[W5\48]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Resume.pdf</td>
+        <td>[4]=>[4.0]</td>
+        <td>=[W5\49]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>mask.py</td>
+        <td>[3.0]=>[4.0]</td>
+        <td>=[MAINDIR]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>[0.4]=>[5.0]</td>
+        <td>=[MAINDIR]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>[4]=>[4.0]</td>
+        <td>=[N/A]</td>
+        <td>Branch: 4 || FOURTH</td>
+    </tr>
+</table>
+
+---
+
+---
